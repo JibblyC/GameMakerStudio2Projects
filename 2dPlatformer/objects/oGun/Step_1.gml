@@ -21,6 +21,7 @@ if (mouse_check_button(mb_left)) && (firingDelay < 0){
 x = x - lengthdir_x(recoil,image_angle);
 y = y - lengthdir_y(recoil,image_angle);
 
+//Flip gun when facing new direction
 if (image_angle > 90) && (image_angle < 270){
 	image_yscale = -1;
 }
