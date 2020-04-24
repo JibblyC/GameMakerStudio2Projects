@@ -1,2 +1,1 @@
-//Restart for testing
-game_restart();
+slideTransition(TRANS_MODE.RESTART);
